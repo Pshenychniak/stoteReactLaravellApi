@@ -1,0 +1,13 @@
+.cart{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.cartItem{
+    color:aliceblue;
+    margin-left: 5px;
+    text-decoration: none;
+}
+.link{
+    text-decoration: none;    
+}

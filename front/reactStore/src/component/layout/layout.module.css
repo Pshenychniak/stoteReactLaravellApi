@@ -1,0 +1,21 @@
+.headerMidle{
+    display: flex;
+    flex-direction: row;
+    background-color: #333;    
+    font-size: 1.5em;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    border-bottom: 1px solid silver;
+    height: 84px;
+}
+.footer{    
+    display: flex;
+    flex-direction: row;
+    background-color: #333;    
+    justify-content: space-around;
+    align-items: center;
+}
+.content{
+    min-height: 80vh;
+}

@@ -1,0 +1,30 @@
+.headerTop{
+    /* background-color: #333;  */
+    color: #fff; 
+    padding: 10px 0;
+    display: flex;
+    /* border-bottom: 1px solid silver; */
+}
+.infoInner{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    /* align-items: center; */
+    width: 100%;
+    text-decoration: none;
+}
+.infoItem{
+    margin: 0 15px; 
+    text-decoration: none;
+    font-size: 1em;
+}
+.link{
+    color:aliceblue;
+    text-decoration: none;
+    padding: 10px;
+}
+.link:hover{
+    color: silver;
+}

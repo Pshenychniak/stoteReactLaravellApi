@@ -1,0 +1,66 @@
+.contain{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.content{
+    width: 50%;
+    font-weight: 500;
+    justify-self: center;
+}
+.social{
+    color: black; 
+    padding: 10px 0;
+    display: flex;
+}
+.socialUl{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-decoration: none;
+}
+.socialLi{
+    margin: 0 15px; 
+    text-decoration: none;
+    font-size: 1em;    
+    display: flex;
+    align-items: center;
+}
+.socialLogo{
+   height: 3em;  
+}
+.socialLink{
+    text-decoration: none;      
+    color: black; 
+}
+.socialLink:hover{   
+    color: silver;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    width: 80%;
+    margin-bottom: 20px;
+}
+.form input{
+    border: none;
+    border-bottom: 1px solid black;
+    outline: transparent;
+    font-size: large;
+}
+.form textarea{
+    
+    font-size: large;
+}
+.form button{
+    background-color: silver;
+    color: aliceblue;
+    font-size: large;
+    border-radius: 5px;
+}
